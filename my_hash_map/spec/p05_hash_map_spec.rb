@@ -30,6 +30,7 @@ describe HashMap do
     end
 
     it "overwrites any existing value for the given key" do
+      debugger
       hash[:one] = 1
       hash[:one] = "one"
 
